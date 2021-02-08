@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 Feb, 2021, 2:21:47 PM
+    Author     : Shahab Siddique
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/back2.png);
+    background-size: cover
+}
+header{
+    background: black;
+    color: white;
+    padding: 8px 0px 6px 40px;
+    height: 50px;
+    
+}
+header h2
+{
+    display: inline;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+nav ul
+{
+    font-family: 'Montserrat',sans-serif;
+    display: inline;
+    padding: 0px;
+    float: left;
+}
+nav ul li
+{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 15px;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+.enred
+{
+    background-color: red;
+    padding: 30px 10px 22px 10px;
+}
+.dered:hover
+{
+    background-color: blue;
+    padding: 30px 10px 22px 10px;
+}
+.divider
+{
+    background-color: red;
+    height: 5px;
+}
+.clear
+{
+    height: 8px;
+}
+.intro
+{
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+section 
+    {
+    align-items: center;
+    color: #000;
+    width: -webkit-calc(100% - 344px);
+    width: -moz-calc(100% - 344px);
+    width: calc(100% - 344px);
+    margin: 10px 250px 8px;
+    padding: 8px;
+    display: block;
+    max-width: 888px;
+    word-wrap: break-word;
+    text-align: justify;
+    box-sizing: border-box;
+    background: #fff;
+}
+.btn3
+{
+    margin-top: 8px;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    font-family: 'Goldman',sans-serif;
+    font-size: 1.4em;
+    
+}
+textArea
+{
+    
+    width: 100%;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin: 0 0 8px;
+    padding: 4px;
+    display: block;
+    overflow: auto;
+    word-break: break-all;
+    box-sizing: border-box;
+    min-height: 220px;
+    background: #eee;
+}
+    
+

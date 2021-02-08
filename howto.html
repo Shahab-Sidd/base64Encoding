@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>How It Works</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: darkgray;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+</style>
+    </head>
+    <body>
+        <h1 style="text-align: center">
+            How Encoding Works
+        </h1>
+        <p style="text-align: center">
+            Here's a quote snippet from Thomas Hobbes's Leviathan:
+            <br>
+
+"Man is distinguished, not only by his reason, but ..."
+<br>
+
+This is represented as an ASCII byte sequence and encoded in MIME's Base64 scheme as follows:
+<br>
+<br>
+TWFuIGlzIGRpc3Rpbmd1aXNoZWQsIG5vdCBvbmx5IGJ5IGhpcyByZWFzb24sIGJ1dCAuLi4=
+<br>
+<br>
+In the above quote the encoded value of Man is TWFu. <br>Encoded in ASCII, the letters "M", "a", and "n" are stored as the bytes 77, 97, 110, which are equivalent to "01001101", "01100001", and "01101110" in base-2. <br>These three bytes are joined together in a 24 bit buffer producing the binary sequence "010011010110000101101110". <br>Packs of 6 bits (6 bits have a maximum of 64 different binary values) are converted into 4 numbers (24 = 4 * 6 bits) which are then converted to their corresponding values in Base64.
+        </p>
+        
+        
+
+
+<footer>
+  <p>Source: Base64encoding.com<br>
+  <a href="index.php">Back To HOME</a></p>
+</footer>
+        
+    </body>
+</html>
